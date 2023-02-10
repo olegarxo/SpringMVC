@@ -35,7 +35,7 @@ public class FirstControllerr {
                 case "addition" -> model.addAttribute("calc", a + b);
             }
         }catch (Exception e){
-            model.addAttribute("calc", "bad req");
+            model.addAttribute("calc", "bad req.");
         }
 
         return "first/calcul";
